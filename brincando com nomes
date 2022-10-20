@@ -1,0 +1,5 @@
+nome = str (input('Qual é o seu nome? '))
+if nome == 'Rafaela':
+   print ('Que nome lindo você tem!')   
+else:    
+   print ('Bom dia,{}!'.format(nome))
