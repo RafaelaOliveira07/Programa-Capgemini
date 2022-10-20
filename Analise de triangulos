@@ -1,0 +1,10 @@
+lado1 = int (input('insira o lado 1: '))
+lado2 = int (input('insira o lado 2: '))
+lado3 = int (input('insira o lado 3: '))
+
+if lado1 != lado2 != lado3 != lado1:
+    print ('O formato é de escaleno')
+elif lado1 == lado2 == lado3:
+    print ('Este é um triangulo é um equilatero')
+else:
+    print ('Este é um isosceles')
